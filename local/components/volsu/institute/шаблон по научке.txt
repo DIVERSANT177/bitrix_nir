@@ -1,0 +1,16 @@
+Это вставить в шаблон, стили сайта и шаблона полностью почистить
+
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<?$APPLICATION->ShowHead()?>
+<title><?$APPLICATION->ShowTitle()?></title>
+</head>
+
+<body>
+#WORK_AREA#
+</body>
+</html>
